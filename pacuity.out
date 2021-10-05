@@ -1,0 +1,17 @@
+Ali does not see a valid number.
+Ali sees 13, which is not bigger than 13.
+Ali sees 55, which is bigger than 22.
+Ali sees -151, which is not bigger than -121.
+Ali sees 11, which is not bigger than 11.
+Ali sees -11, which is not bigger than -11.
+Ali sees -53, which is not bigger than -23.
+Ali sees -12, which is bigger than -15.
+Ali sees -15, which is not bigger than -12.
+Ali sees -2222222222222222222, which is bigger than -5555555555555555555.
+Ali sees 5555555555555555555, which is bigger than 2222222222222222222.
+Ali does not see a valid number.
+Ali sees 0, which is not bigger than 0.
+Ali does not see a valid number.
+Ali sees 51, which is bigger than 21.
+Ali sees 15, which is bigger than 12.
+Ali does not see a valid number.

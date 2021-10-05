@@ -1,0 +1,82 @@
+
+                              Vhat's fur dinner?
+                              Problem Name: CHEF
+
+     The Swedish Chef of the Muppets has a very difficult time communicating
+with Kermit and the other Muppets.  This is due to his strong Swedish accent
+on English.  Therefore, Kermit would like to have the other Muppets practice
+listening to Swedish-accented English.  They need your help.
+
+
+THE PROBLEM:
+
+     You are to write a translator that converts English to Swedish-accented
+English.  To do this, all you have to do is replace substrings in sentences
+with other substrings.  In the table below, the left column shows the original
+English substring and the right column shows what it should be converted into
+(ignore all quotation marks):
+
+                         FROM:          TO:
+                         --------       --------
+                         "and"          "und"
+                         "And"          "Und"
+                         "Then"         "Den"
+                         "then"         "den"
+                         "the"          "der"
+                         "The"          "Der"
+                         "Yes"          "Ya"
+                         "yes"          "ya"
+                         "Which"        "Vich"
+                         "which"        "vich"
+                         "x."           "xy."
+                         "x "           "xy "
+                         "w "           "w "
+                         "w"            "v"
+                         "W"            "V"
+                         "d."           "dy."
+                         "d "           "dy "
+                         "p."           "py."
+                         "p "           "py "
+                         "v"            "f"
+                         "e "           "ey "
+                         "e."           "ey."
+                         "ir"           "ur"
+                         "or"           "ur"
+                         "ou"           "oo"
+                         "ue"           "oo"
+                         "Th"           "D"
+                         "th"           "d"
+                         "ick"          "ook"
+
+Note that when applying substitutions, you should try the rules above from
+top to bottom.  Anything else that does not match one of these rules should
+be left alone in the output.  Furthermore, make sure you do not apply a rule
+to text that is the output from the application of another rule.
+
+
+THE INPUT:
+
+     The input file will start with an integer "n" on a line by itself.  On
+the following "n" lines there will be English text for you to translate.
+
+
+THE OUTPUT:
+
+     Each line of the output will be the Swedish-accented English translation
+of each line of the input.  Do not worry if the conversion makes the line wrap
+past 80 columns.
+
+
+SAMPLE INPUT:
+
+3
+Welcome to the Ninth Annual High School Programming Tournament.  The judges
+think you will find the problem set both fun and challenging.  We hope you
+actually do.
+
+
+SAMPLE OUTPUT:
+Velcomey to der Nind Annual High School Programming Toornament.  Der judges
+dink yoo vill findy der problem set bod fun und challenging.  Vey hopey yoo
+actually do.
+

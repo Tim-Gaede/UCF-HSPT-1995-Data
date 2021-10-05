@@ -1,0 +1,47 @@
+40
+sample_input:
+Welcome to the Ninth Annual High School Programming
+Tournament.  The judges think you will find the problem set
+both fun and challenging.  We hope you actually do.
+
+straight translations:
+and
+And
+Then
+then
+the
+The
+Yes
+yes
+Which
+which
+x.
+x
+w
+ww
+W
+d.
+d
+p.
+p
+v
+e
+e.
+ir
+or
+ou
+ue
+Th
+th
+ick
+
+A paragraph:
+Ww pp dd.  THICK isn't Thick or thought.  The shouldn't become Dey.
+Wand Southey worthenwick vuew ve.  D.E.P. d.e.p.
+A really long line just for sport.  Still holdable in a pascal string, but longer than eighty charaters.
+
+These are all the nasty-kill-em-all special cases I could come up with.
+There are some really NASTY cases dealing with line length (input is 255 chars,
+output is 400, for example, but that seems too nasty for this contest (adds
+a whole point to the difficulty rating at least).
+What cool ones can you'all come up with?                                                                                      ('Th',    'D'),
